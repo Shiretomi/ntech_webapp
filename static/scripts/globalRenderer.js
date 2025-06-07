@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.tabs.switchPage('mainPage');
     });
     const buttonScripts = document.getElementById('toScripts');
-    buttonScripts.addEventListener("click", () => {
+    buttonScripts?.addEventListener("click", () => {
         window.tabs.switchPage('scripts');
     });
 })

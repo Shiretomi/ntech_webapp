@@ -1,3 +1,5 @@
+userscripts/test*
+
 # Logs
 logs
 *.log
