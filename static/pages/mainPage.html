@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="NTechLab internal app">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../styles/mainPage.css">
+    <link rel="stylesheet" href="../styles/mainPageBackgrond.css">
+    <title>Test UI</title>
+</head>
+<body>
+    <div class="gradient"></div>
+    <div class="content-container">
+        <img src="../images/ntechlogo.png" alt="NTechLab" class="logo" id="companyLogo">
+        <div id="datetime" class="datetime"></div>
+        <div class="left-panel" id="leftPanel">
+            <div class="panel-handle" id="panelHandle"></div>
+            <ul class="options-list">
+                <li>
+                    <button type="button" id="toScripts">
+                        <img src="../icons/bash.png" alt="">Scripts
+                    </button></li>
+                <li>
+                    <button type="button">
+                        <img src="../icons/documents-and-forms.png" alt="">FF Documentation
+                    </button></li>
+                <li>
+                    <button type="button">
+                        <img src="../icons/youtrack.png" alt="">JB Tracker
+                    </button></li>
+                <li>
+                    <button type="button">
+                        какая нить хуйня
+                    </button></li>
+            </ul>
+        </div>
+        <script>
+            document.getElementById('companyLogo').addEventListener('click', function() {
+                const panel = document.getElementById('leftPanel');
+                panel.classList.toggle('active');
+            });
+        </script>
+        <script src="../scripts/globalRenderer.js"></script>
+</body>
+</div>
+</html>

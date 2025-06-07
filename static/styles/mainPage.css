@@ -1,0 +1,10 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.menu-bar {
+    color: aqua;
+    height: 100%;
+    width: 10%;
+    justify-content: left;
+}

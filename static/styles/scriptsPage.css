@@ -1,0 +1,24 @@
+@keyframes fadeIn_fromDown {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.script-container {
+    background-color: rgba(42, 97, 180, 0.144);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(34, 37, 41, 0.144);
+    position: absolute;
+    bottom: 0;
+    left: 2.5%;
+    top: 2.5%;
+    width: 95%;
+    height: 95%;
+    animation: fadeIn_fromDown 0.5s ease;
+}
